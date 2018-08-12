@@ -4,3 +4,7 @@ function updateObjectWithKeyAndValue(object,key,value){
   Object.assign( newObj,{[key]:value})
   return newObj
 }
+function destructivelyUpdateObjectWithKeyAndValue(object,key,value){
+  Objecr.assign(object,{[key]:value})
+  return object
+}
